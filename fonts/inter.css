@@ -1,0 +1,22 @@
+/* Variable fonts usage:
+:root { font-family: "Inter", sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+} */
+
+/* Core weights */
+@font-face { 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.woff2") format("woff2");
+}
